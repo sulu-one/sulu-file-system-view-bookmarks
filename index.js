@@ -58,8 +58,6 @@ FileIcons.prototype.init = function(client) {
 	client.app.events.on("enter-filesystem-item", this.onEnterFileSystemItem.bind(client)); 
 	
 	this.command = new Command();
-	client.app.registerHotKey("ctrl+b", this.command.toggleBookmark);
-	client.app.registerHotKey("ctrl+shift+b", this.command.showBookmarks);
 };
 
 FileIcons.prototype.getFileSystemItemIcon = function(fileSystemItem){  

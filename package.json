@@ -1,5 +1,16 @@
 {
-  "suluPackage": true,
+  "suluPackage": {
+    "hotkeys" : [
+      {
+        "key" : "ctrl+b" , 
+        "function" : "toggleBookmark"
+      },      
+      {
+        "key" : "ctrl+shift+b" , 
+        "function" : "showBookmarks"
+      }
+    ]
+  },
   "name": "sulu-file-system-view-bookmarks",
   "description": "SULU Bookmark Manager",
   "version": "1.0.6",
