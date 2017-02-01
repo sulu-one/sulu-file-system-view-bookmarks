@@ -1,19 +1,19 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "ctrl+b" , 
-        "function" : "toggleBookmark"
-      },      
+        "key": "ctrl+b",
+        "function": "toggleBookmark"
+      },
       {
-        "key" : "ctrl+shift+b" , 
-        "function" : "showBookmarks"
+        "key": "ctrl+shift+b",
+        "function": "showBookmarks"
       }
     ]
   },
   "name": "sulu-file-system-view-bookmarks",
   "description": "SULU Bookmark Manager",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
